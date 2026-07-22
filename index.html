@@ -321,10 +321,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   .link-card p{ font-size:13px; color:var(--ink-soft); margin-top:4px; }
   .arrow{ color:var(--green); font-family:'IBM Plex Mono', monospace; }
 
-  .site-header{
-    border-bottom:1px solid var(--rule-soft);
-    padding:18px 0;
-  }
+   .site-header{
+     border-bottom:1px solid var(--rule-soft);
+     padding:18px 0;
+     position:sticky;
+     top:0;
+     z-index:100;
+     background:var(--paper);
+   }
   .site-header .footer-nav{ padding:0; }
 
   /* ---------- Footer ---------- */
